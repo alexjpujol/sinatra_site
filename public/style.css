@@ -15,14 +15,26 @@ nav li {
     display: inline-block;
     font-weight: 800;
 /*    margin: 0px 60px 0px 0px*/
+    padding: 5px
 }
 
-#leftNav    {
+#leftNav {
     float: left;
+    margin-left: 0px
+}
+
+#leftNav li {
+    margin-right: 25px
 }
 
 #rightNav   {
     float: right;
+/*    margin-right: 20px;*/
+    padding-right: 50px;
+}
+
+#rightNav li {
+    margin-left: 25px
 }
 
 a:link {
@@ -55,8 +67,10 @@ a:hover {
 
 h1 {
     text-align: center;
-/*    border: solid black 2px;*/
+/*    border: solid black 1px;*/
     position: relative;
-    top:60px;
+    top:70px;
+    color: floralwhite;
+    font-family: fantasy;
 }
 
