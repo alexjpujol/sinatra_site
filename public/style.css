@@ -72,12 +72,12 @@ a:hover {
 
 h1 {
     text-align: center;
-/*    border: solid black 1px;*/
     position: relative;
     top:70px;
     color: floralwhite;
     font-family: fantasy;
 }
+
 
 #juanContainer {
     border: 2px solid black;
@@ -87,4 +87,54 @@ h1 {
     right: 0;
     left: 0;
     height: 900px;
+
+a:hover {
+  cursor: url('images/taco-icon.png'), default;
+}
+
+.pinata {
+    position: absolute;
+    top: 150px;
+    left: 270px;
+    z-index: -1;
+    animation-name: pinataSwing;
+    -webkit-animation-iteration-count: infinite;
+    animation-duration: 7s;
+}
+
+.faceRight {
+    transform:scaleX(-1);
+}
+
+@keyframes pinataSwing {
+    0% {top: 150px; left: 270px;transform:scaleX(-1);
+        animation-timing-function: linear;
+    }
+   25% {top: 250px; left: 375px;
+        animation-timing-function: linear;
+    }
+    49% {transform:scaleX(-1);}
+    50% {top: 150px; left: 500px;transform: rotate(180deg); transform:scaleX(-1);
+        animation-timing-function: linear;
+    }
+    51% {transform:scaleX(1);}
+    60% {top: 150px; left: 500px; transform: rotate(360deg); transform:scaleX(1);
+        animation-timing-function: linear;
+    }
+
+    75% {top: 250px; left: 375px;
+        animation-timing-function: linear;
+    }
+    89% {transform:scaleX(1);}
+    90% {top: 150px; left: 270px;transform: rotate(90deg);transform:scaleX(-1);
+        animation-timing-function: linear;
+    }
+    100% {top: 150px; left: 270px;transform: rotate(90deg);transform:scaleX(-1);
+        animation-timing-function: linear;
+    }
+}
+
+
+
+
 }
