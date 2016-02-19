@@ -65,18 +65,23 @@ a:hover {
     background-position: center;
 }
 
-h1 {
+#logo h1 {
     text-align: center;
-    width: 200px;
-    height: 200px;
-    border: solid black 2px;
-    border-radius: 100px;
-    background-color: white;
     font-family: "Mexican-fiesta";
-/*    border: solid black 1px;*/
     position: relative;
     top:70px;
     color: floralwhite;
     font-family: fantasy;
 }
 
+header {
+    height: 250px
+}
+
+
+#menuh1 {
+    border-bottom: solid black 2px;
+    color: black;
+    display: block;
+    clear: both
+}
