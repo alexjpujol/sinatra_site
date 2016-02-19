@@ -1,0 +1,10 @@
+body {
+    background-image: url(images/MexBGimage.jpg);
+    background-color: white
+}
+
+nav ul {
+    display: inline-block;
+    font-weight: 800
+}
+
