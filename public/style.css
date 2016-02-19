@@ -3,9 +3,75 @@ body {
     background-color: white
 }
 
-nav ul {
+nav {
+    background-color: yellow;
+    border: solid black 2px;
+    position: relative;
+    top: 70px;
+    padding-bottom: 60px;
+}
+
+nav li {
     display: inline-block;
-    font-weight: 800
+    font-weight: 800;
+/*    margin: 0px 60px 0px 0px*/
+    padding: 5px
+}
+
+#leftNav {
+    float: left;
+    margin-left: 0px
+}
+
+#leftNav li {
+    margin-right: 25px
+}
+
+#rightNav   {
+    float: right;
+/*    margin-right: 20px;*/
+    padding-right: 50px;
+}
+
+#rightNav li {
+    margin-left: 25px
+}
+
+a:link {
+    text-decoration: none;
+    color: black
+}
+
+a:visited {
+    color: black
+}
+
+a:hover {
+    color: black
+}
+
+#logo   {
+    border: 1px solid black;
+    width: 250px;
+    margin: 0 auto;
+    height: 250px;
+    border-radius: 125px;
+    background-color: white;
+    position: relative;
+    top: -60px;
+    background-image: url("images/mexFlag.jpg");
+    background-size: 300px 250px;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+/*    border: solid black 1px;*/
+    position: relative;
+    top:70px;
+    color: floralwhite;
+    font-family: fantasy;
 }
 
 /*body {
