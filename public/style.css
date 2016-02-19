@@ -3,8 +3,37 @@ body {
     background-color: white
 }
 
-nav ul {
+nav {
+    background-color: yellow;
+    border: solid black 2px
+}
+
+nav li {
     display: inline-block;
-    font-weight: 800
+    font-weight: 800;
+    margin: 0px 60px 0px 0px
+}
+
+a:link {
+    text-decoration: none;
+    color: black
+}
+
+a:visited {
+    color: black
+}
+
+a:hover {
+    color: black
+}
+
+h1 {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: solid black 2px;
+    border-radius: 100px;
+    background-color: white;
+    padding-top: 10px
 }
 
