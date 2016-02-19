@@ -1,4 +1,13 @@
 body {
-	cursor: url(/images/taco_cursor.png), auto;
+    background-image: url(images/MexBGimage.jpg);
+    background-color: white
 }
 
+nav ul {
+    display: inline-block;
+    font-weight: 800
+}
+
+/*body {
+	cursor: url(/images/taco_cursor.png), auto;
+}*/
