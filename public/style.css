@@ -80,14 +80,15 @@ h1 {
 
 
 #juanContainer {
-    border: 2px solid black;
+/*    border: 2px solid black;*/
     position: absolute;
     top: 275px;
     bottom: 0;
     right: 0;
     left: 0;
     height: 900px;
-
+}
+    
 a:hover {
   cursor: url('images/taco-icon.png'), default;
 }
@@ -134,7 +135,13 @@ a:hover {
     }
 }
 
+.juan   {
+    -webkit-transition: width 1s;
+}
 
-
+.juan:hover  {
+    width: 300px;
+    height: 300px;
+}
 
 }
