@@ -1,4 +1,8 @@
 $(document).ready(function(){
+  $("#welcome").fadeIn(3000)
+  $(".juan").click(function(){
+    $("#bigJuan").slideDown(3000)
+  })
 
 $("#desertImage").hide();
 $("#imageLink").click(function(){
@@ -24,4 +28,19 @@ $(".pinata").click(function(){
 	$("#candy"+y).css({left: x.left, top: x.top}).animate({top:0}, 1500, 'linear');
 	y = y + 1;
 })
+
+    $(".menu img").fadeIn(3000);
+    $(".menu img").mouseenter(function() {
+        $(this).css({
+            "height": "150px",
+                             })});
+    $(".menu img").mouseleave(function() {
+        $(this).css({
+            "height": "130px",
+                             })});
+
+
+
+
 })//Closes .ready
+
