@@ -1,6 +1,6 @@
 body {
     background-image: url(images/MexBGimage.jpg);
-    background-color: white
+    background-color: white;
 }
 
 nav {
@@ -57,12 +57,13 @@ a:hover {
     height: 250px;
     border-radius: 125px;
     background-color: white;
-    position: relative;
-    top: -60px;
+    position: absolute;
+    top: 0px;
     background-image: url("images/mexFlag.jpg");
     background-size: 300px 250px;
     background-repeat:no-repeat;
     background-position: center;
+    left: 395px;
 }
 
 h1 {
@@ -98,7 +99,7 @@ a:hover {
    25% {top: 250px; left: 375px;
         animation-timing-function: linear;
     }
-    49% {transform:scaleX(-1);}
+    47% {transform:scaleX(-1);}
     50% {top: 150px; left: 500px;transform: rotate(180deg); transform:scaleX(-1);
         animation-timing-function: linear;
     }
@@ -110,7 +111,7 @@ a:hover {
     75% {top: 250px; left: 375px;
         animation-timing-function: linear;
     }
-    89% {transform:scaleX(1);}
+    87% {transform:scaleX(1);}
     90% {top: 150px; left: 270px;transform: rotate(90deg);transform:scaleX(-1);
         animation-timing-function: linear;
     }
@@ -119,6 +120,19 @@ a:hover {
     }
 }
 
+.aboutme {
+    border-style: solid;
+    border-color: #AC1818;
+    background-color: yellow;
+    top: 500px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    padding: 3px;
+    z-index: -5;
+}
 
-
+.aboutme a{
+    font-weight: bold;
 }

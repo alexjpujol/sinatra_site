@@ -1,18 +1,10 @@
 $(document).ready(function(){
 
-	/*$(".pinata").animate({
-		left:"600px",
-		top:"250px",
+$("#desertImage").hide();
+$("#imageLink").click(function(){
 
-		},5000);*/
+	$("#desertImage").toggle();
 
-
-
-
-
-
-
-
-
+})
 
 })//Closes .ready
