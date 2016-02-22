@@ -201,3 +201,21 @@ a:hover {
     }
 }
 
+form {
+    background-color: gold;
+    border-radius: 50px;
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 50px
+}
+
+textarea, input {
+    margin-left: 50px;
+    margin-top: 20px
+}
+
+#confirm {
+    font-weight: 800;
+    font-size: 24px
+}
