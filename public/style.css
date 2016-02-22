@@ -220,7 +220,6 @@ a:hover {
     }
 }
 
-
 .aboutme {
     border-style: solid;
     border-color: #AC1818;
@@ -246,6 +245,25 @@ a:hover {
 .pinata:hover {
     cursor: url('images/taco-icon.png'), default;
 };
+
+form {
+    background-color: gold;
+    border-radius: 50px;
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 50px
+}
+
+textarea, input {
+    margin-left: 50px;
+    margin-top: 20px
+}
+
+#confirm {
+    font-weight: 800;
+    font-size: 24px
+}
 
 .juan   {
     -webkit-transition: 1s;
@@ -276,8 +294,4 @@ a:hover {
     font-size: 125px;
     padding-top: 100px;
     display: none;
-}
-
-
-
 }
