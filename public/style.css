@@ -65,12 +65,91 @@ a:hover {
     background-position: center;
 }
 
-h1 {
+#logo h1 {
     text-align: center;
+    font-family: "Mexican-fiesta";
     position: relative;
     top:70px;
     color: floralwhite;
     font-family: fantasy;
+}
+
+header {
+    height: 250px
+}
+
+
+#menuh1 {
+    border-bottom: solid black 2px;
+    color: black;
+    display: block;
+    clear: both;
+    text-align: center
+}
+
+#specialties  {
+    width: 600px;
+    border-radius: 50px;
+    float: left;
+    display: inline-block;
+    background-color: gold;
+    margin-left: 50px;
+    padding-bottom: 10px
+    
+}
+
+#specialties h2 {
+    text-align: center
+}
+
+#specialties h3 {
+    margin-left: 10px   
+}
+
+#specialties p {
+    margin-left: 10px   
+}
+
+#tipicos  {
+    width: 600px;
+    border-radius: 50px;
+    background-color: gold;
+    float: right;
+    margin-right: 50px;
+    padding-bottom: 10px
+}
+
+#tipicos h2 {
+    text-align: center
+}
+
+#tipicos h3 {
+    margin-left: 10px
+}
+
+#tipicos p {
+    margin-left: 10px
+}
+
+
+.menu img {
+    height: 130px;
+    float: right;
+    margin-right: 15px;
+    border-radius: 25px
+}
+
+.menu p {
+    float: left;
+    width: 350px
+}
+
+.menu h3 {
+    clear: both
+}
+
+footer {
+    clear: both
 }
 
 a:hover {
@@ -119,6 +198,3 @@ a:hover {
     }
 }
 
-
-
-}
