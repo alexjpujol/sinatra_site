@@ -2,6 +2,7 @@ require "sinatra"
 require "sendgrid-ruby"
 
 get "/" do
+
     erb :index
 end
 
@@ -17,6 +18,7 @@ get "/contact" do
     erb :contact
 end
 
+<<<<<<< HEAD
 post "/contact" do
     
     client = SendGrid::Client.new(api_key: ENV["SENDGRID_APIKEY"])
@@ -38,3 +40,8 @@ post "/contact" do
         "NEIN NEIN NEIN! Your email has failed."
     end
 end   
+=======
+
+
+
+>>>>>>> f865f67dc50d4a35f594d12d64e34e8feccf9beb

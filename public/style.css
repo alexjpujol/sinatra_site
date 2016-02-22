@@ -1,3 +1,7 @@
+header  {
+    height: 200px;
+}
+
 body {
     background-image: url(images/MexBGimage.jpg);
     background-color: white
@@ -9,6 +13,7 @@ nav {
     position: relative;
     top: 70px;
     padding-bottom: 60px;
+    overflow: visible;
 }
 
 nav li {
@@ -74,6 +79,17 @@ a:hover {
     font-family: fantasy;
 }
 
+
+#juanContainer {
+/*    border: 2px solid black;*/
+    position: absolute;
+    top: 545px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 900px;
+}
+
 header {
     height: 250px
 }
@@ -96,7 +112,7 @@ header {
     margin-left: 50px;
     margin-top: 25px;
     padding-bottom: 10px
-    
+
 }
 
 #specialties h2 {
@@ -104,11 +120,11 @@ header {
 }
 
 #specialties h3 {
-    margin-left: 10px   
+    margin-left: 10px
 }
 
 #specialties p {
-    margin-left: 10px   
+    margin-left: 10px
 }
 
 #tipicos  {
@@ -218,4 +234,35 @@ textarea, input {
 #confirm {
     font-weight: 800;
     font-size: 24px
+}
+
+.juan   {
+    -webkit-transition: 1s;
+}
+
+.juan:hover  {
+    transform: rotate(1080deg);
+}
+
+#restaurantBox {
+    background-image: url(/images/restaurant.jpg);
+    position: relative;
+    width: 836px;
+    height: 400px;
+    margin: -400px auto;
+}
+
+#bigJuan    {
+    position: absolute;
+    margin: 0 auto;
+    display: none;
+}
+
+#welcome    {
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 125px;
+    padding-top: 100px;
+    display: none;
 }
