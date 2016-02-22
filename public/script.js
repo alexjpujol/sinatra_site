@@ -5,12 +5,16 @@ $(document).ready(function(){
 		top:"250px",
 
 		},5000);*/
-
-
-
-
-
-
+    
+    $(".menu img").fadeIn(3000);
+    $(".menu img").mouseenter(function() {
+        $(this).css({
+            "height": "150px",
+                             })});
+    $(".menu img").mouseleave(function() {
+        $(this).css({
+            "height": "130px",
+                             })});
 
 
 
