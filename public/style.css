@@ -110,6 +110,7 @@ header {
     display: inline-block;
     background-color: gold;
     margin-left: 50px;
+    margin-top: 25px;
     padding-bottom: 10px
 
 }
@@ -128,10 +129,11 @@ header {
 
 #tipicos  {
     width: 600px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 25px;
     border-radius: 50px;
     background-color: gold;
-    float: right;
-    margin-right: 50px;
     padding-bottom: 10px
 }
 
@@ -152,7 +154,8 @@ header {
     height: 130px;
     float: right;
     margin-right: 15px;
-    border-radius: 25px
+    border-radius: 25px;
+    display: none
 }
 
 .menu p {
