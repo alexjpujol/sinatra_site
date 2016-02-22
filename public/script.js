@@ -1,18 +1,7 @@
 $(document).ready(function(){
+  $("#welcome").fadeIn(3000)
+  $(".juan").click(function(){
+    $("#bigJuan").slideDown(3000)
+  })
 
-	/*$(".pinata").animate({
-		left:"600px",
-		top:"250px",
-
-		},5000);*/
-
-
-
-
-
-
-
-
-
-
-})//Closes .ready
+})

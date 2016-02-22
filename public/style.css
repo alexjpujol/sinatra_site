@@ -83,7 +83,7 @@ a:hover {
 #juanContainer {
 /*    border: 2px solid black;*/
     position: absolute;
-    top: 275px;
+    top: 545px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -221,5 +221,30 @@ a:hover {
 .juan:hover  {
     transform: rotate(1080deg);
 }
+
+#restaurantBox {
+    background-image: url(/images/restaurant.jpg);
+    position: relative;
+    width: 836px;
+    height: 400px;
+    margin: -400px auto;
+}
+
+#bigJuan    {
+    position: absolute;
+    margin: 0 auto;
+    display: none;
+}
+
+#welcome    {
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 125px;
+    padding-top: 100px;
+    display: none;
+}
+
+
 
 }
