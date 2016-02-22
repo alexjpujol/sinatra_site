@@ -28,7 +28,6 @@ $(".pinata").click(function(){
 	$("#candy"+y).css({left: x.left, top: x.top}).animate({top:0}, 1500, 'linear');
 	y = y + 1;
 })
-
     $(".menu img").fadeIn(3000);
     $(".menu img").mouseenter(function() {
         $(this).css({
